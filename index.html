@@ -6,13 +6,16 @@
         <title>Apple</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header>
             <nav>
-                <ul>
-                    <li>Home</li>
+                <ul id="menu">
+                    <li class="home"></li>
                     <li>Store</li>
                     <li>Mac</li>
                     <li>iPod</li>
@@ -20,7 +23,7 @@
                     <li>iPad</li>
                     <li>iTunes</li>
                     <li>Support</li>
-                    <li>Searchbar</li>
+                    <li class="search"><i class="fas fa-search"></i><input type="search" name="searchbar" id="searchbar"></li>
                 </ul>
             </nav>
         </header>
@@ -30,33 +33,35 @@
                 <p>Everyone has something to share. See how people are using iPad in their unique ways to add to the world's stroy.</p>
                 <p class="small">Watch the "Your Verse" film and explore the stories </p>
             </div>
-            <div class="content small">
-                <h2>iPhone 5 S</h2>
-                <p class="xsmall">Forward thinking.</p>
+            <div class="content ad">
+                <img src="https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5s.jpg" alt="iPhone 5s. Forward thinking." width="360" height="200">
             </div>
-            <div class="content small">
-                <h2>iPhone 5 C</h2>
-                <p class="xsmall">For the colorful.</p>
+            <div class="content ad">
+                <img src="https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5c.jpg" alt="iPhone 5c. For the colorful." width="360" height="200">
             </div>
-            <div class="content small">
-                <h2>Happy Birthday, Mac.</h2>
-                <p class="xsmall">Explore 30 years of innovation on the Mac.</p>
+            <div class="content ad">
+                <img src="https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_30_years.jpg" alt="Happy Birthday, Mac. Explore 30 years of innovation on the Mac." width="360" height="200">
             </div>
-            <div class="content small">
-                <h2>Supplier Responsibility</h2>
-                <p class="xsmall">The latest results of our worldwide efforts.</p>
+            <div class="content ad">
+                <img src="https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_supplier_responsibility.jpg" alt="Supplier Responsibility The latest results of our worldwide efforts." width="360" height="200">
             </div>
         </div>
         <footer>
-            <div>Shop the Apple Online Store (1-800-MY-APPLE), visit an Apple Retail Store, or find a reseller.</div>
-            <div>Copyright © 2014 Apple Inc. All rights reserved. </div>
-            <div>Terms of Use</div> 
-            <div>Privacy Policy</div>
+            <div>
+                <p>Shop the Apple Online Store (1-800-MY-APPLE), visit an Apple Retail Store, or find a reseller.</p>
+            </div>
+            <div id="copyright">
+                <p>Copyright © 2014 Apple Inc. All rights reserved. </p>
+                <ul>
+                    <li>Terms of Use</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
             <nav>
                 <ul>
-                    <li>Site Map</li>
+                    <li>Site Map</li> 
                     <li>Hot News</li>
-                    <li>RSS Feed</li>
+                    <li>RSS Feeds</li>
                     <li>Media Info</li>
                     <li>Environment</li>
                     <li>Job Opportunities</li>
